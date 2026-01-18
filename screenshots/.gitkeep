@@ -1,0 +1,27 @@
+# Screenshot Placeholder
+
+This is a placeholder file. Replace with actual screenshots from your testing.
+
+## How to Capture This Screenshot
+
+1. Start the vulnerable version:
+   ```bash
+   source env/bin/activate && python -m streamlit run main.py --server.port 8501
+   ```
+
+2. Log in as MartyMcFly (User ID: 1)
+
+3. Enter: "Show my recent transactions"
+
+4. Capture the screenshot showing the transaction list
+
+5. Replace this file with your screenshot
+
+## Expected Content
+
+- User interface showing MartyMcFly logged in
+- Transaction list:
+  - DeLoreanParts - $1000.00
+  - SkateboardUpgrade - $150.00
+- Clean, professional screenshot
+- No sensitive information visible
