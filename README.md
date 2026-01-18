@@ -178,6 +178,24 @@ cp .env.huggingface.template .env
 
 ---
 
+## ⚡ Quick Start
+
+See [QUICK_START.md](QUICK_START.md) for copy-paste commands and attack payloads.
+
+### Running the Applications
+
+**Vulnerable Version** (Port 8501):
+```bash
+source env/bin/activate && python -m streamlit run main.py --server.port 8501
+```
+
+**Secure Version** (Port 8502):
+```bash
+source env/bin/activate && python -m streamlit run main_secure.py --server.port 8502
+```
+
+---
+
 ## 💻 Usage
 
 ### Running the Vulnerable Version
